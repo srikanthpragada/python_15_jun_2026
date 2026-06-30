@@ -1,4 +1,4 @@
-def wish(user, message):
+def wish(user : str, message : str) -> None:
     print(message, user)
 
 # Positional arguments
