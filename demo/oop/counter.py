@@ -11,7 +11,8 @@ class Counter:
     def decrement(self, step = 1):
         self.value -= step
 
-    def get_value(self):
+    @property
+    def currentvalue(self):
         return self.value
 
 c1 = Counter(100)  # Create an object of Counter class
@@ -19,7 +20,7 @@ c1 = Counter(100)  # Create an object of Counter class
 c1.increment()
 c1.increment(10)
 
-print(c1.get_value())
+print(c1.currentvalue)  # using property
 c2 = Counter()
 
 

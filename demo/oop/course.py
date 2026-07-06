@@ -28,17 +28,34 @@ class Course:
     def set_duration(self, duration):
         self.duration = duration
 
+    def __gt__(self, other):
+        print('__gt__')
+        return self.fee > other.fee
 
-print(Course.gettaxrate())
+    def __str__(self):
+        return f"Title: {self.title}, Duration: {self.duration}, Fee: {self.fee}"
 
-c  = Course("Gen AI", 24, 10000)
-print(c.get_net_fee())
 
-c2  = Course("PowerBI", fee = 8000)
-c2.set_duration(20)
-c2.show()
+# print(Course.gettaxrate())
+#
+# c  = Course("Gen AI", 24, 10000)
+# print(c.get_net_fee())
+#
+# c2  = Course("PowerBI", fee = 8000)
+# c2.set_duration(20)
+# c2.show()
+#
+# print(c2.__dict__)
 
-print(c2.__dict__)
+courses = [Course('Java', 36, 8000),
+           Course('C', 30, 5000),
+           Course("DS", 30, 10000)
+           ]
+
+for course in sorted(courses):
+    print(course)
+
+
 
 
 
