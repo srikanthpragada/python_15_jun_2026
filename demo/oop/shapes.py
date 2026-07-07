@@ -1,10 +1,18 @@
-class Shape:
+from abc import ABC, abstractmethod
+
+
+# Abstract class
+class Shape(ABC):
     def __init__(self, x, y):
         self.x = x
         self.y = y
 
     def show(self):
         print(self.x, self.y)
+
+    @abstractmethod
+    def area(self):
+        pass
 
 
 class Rectangle(Shape):
@@ -19,6 +27,7 @@ class Rectangle(Shape):
 
     def area(self):
         return self.width * self.height
+
 
 class Square(Shape):
     def __init__(self, x, y, side):
@@ -36,4 +45,3 @@ class Square(Shape):
 s = Square(100, 200, 50)
 s.show()
 print(s.area())
-
