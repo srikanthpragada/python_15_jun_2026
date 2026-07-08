@@ -1,3 +1,7 @@
+class DecrementError(Exception):
+    def __str__(self):
+        return "Cannot decrement beyond zero"
+
 class Counter:
     # Constructor
     def __init__(self, start = 0):
@@ -9,6 +13,9 @@ class Counter:
         self.value += step
 
     def decrement(self, step = 1):
+        if self.value == 0:
+            raise  DecrementError()
+
         self.value -= step
 
     @property
@@ -22,6 +29,7 @@ c1.increment(10)
 
 print(c1.currentvalue)  # using property
 c2 = Counter()
+c2.decrement()
 
 
 

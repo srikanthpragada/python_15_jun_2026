@@ -6,8 +6,7 @@ class Course:
     def gettaxrate():
         return Course.taxrate
 
-
-    def __init__(self, title, duration = 24, fee = 0):
+    def __init__(self, title, duration=24, fee=0):
         # Object Attributes
         self.title = title
         self.duration = duration
@@ -54,8 +53,3 @@ courses = [Course('Java', 36, 8000),
 
 for course in sorted(courses):
     print(course)
-
-
-
-
-
