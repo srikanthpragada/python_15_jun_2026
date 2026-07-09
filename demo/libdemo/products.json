@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Wireless Mouse",
+    "price": 799.00,
+    "qty": 15
+  },
+  {
+    "name": "Mechanical Keyboard",
+    "price": 2499.00,
+    "qty": 8
+  },
+  {
+    "name": "USB-C Charger",
+    "price": 1199.00,
+    "qty": 20
+  },
+  {
+    "name": "Laptop Stand",
+    "price": 1599.00,
+    "qty": 10
+  },
+  {
+    "name": "Bluetooth Speaker",
+    "price": 3499.00,
+    "qty": 6
+  },
+  {
+    "name": "External SSD 1TB",
+    "price": 6999.00,
+    "qty": 5
+  },
+  {
+    "name": "Webcam HD",
+    "price": 1899.00,
+    "qty": 12
+  },
+  {
+    "name": "Gaming Headset",
+    "price": 2999.00,
+    "qty": 9
+  },
+  {
+    "name": "Monitor 24-inch",
+    "price": 12499.00,
+    "qty": 4
+  },
+  {
+    "name": "USB Flash Drive 64GB",
+    "price": 599.00,
+    "qty": 30
+  }
+]
