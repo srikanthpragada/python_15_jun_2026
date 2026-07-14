@@ -1,0 +1,10 @@
+Lionel Messi,24-06-1987
+Cristiano Ronaldo,05-02-1985
+Neymar Jr.,05-02-1992
+Kylian Mbappe,20-12-1998
+Erling Haaland,21-07-2000
+Kevin De Bruyne,28-06-1991
+Harry Kane,28-07-1993
+Mohamed Salah,15-06-1992
+Robert Lewandowski,21-08-1988
+Luka Modric,09-09-1985

@@ -14,3 +14,4 @@ while True:
     except:
         print(f"{dobstr} is not a valid date. Give it in yyyymmdd format")
 
+datetime.datetime.now().date()
