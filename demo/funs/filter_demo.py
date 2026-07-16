@@ -2,7 +2,6 @@ def hasupper(st: str) -> bool:
     for c in st:
         if c.isupper():
             return True
-
     return False
 
 
